@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #fffaf5;
+    --btn-color: #FF5B2E; 
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,6 +14,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    background: var(--bg-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +27,9 @@ a {
 
 .btn {
     --height: 56px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;    
     min-width: 130px;
     height: var(--height);
     line-height: var(--height);
@@ -31,6 +39,17 @@ a {
     font-weight: 600;
     font-size: 1.4rem;
     color: #000958;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn--primary {
+    color: #fff;
+    background: var(--btn-color);
+    border-color: var(--btn-color);
 }
 
 input, textarea, select, button {
