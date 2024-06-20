@@ -57,6 +57,21 @@ input, textarea, select, button {
     font-family: inherit;
 }
 
+.section-heading {
+    color: #000958;
+    font-family: Sora, sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.section-desc {
+    margin-top: 24px;
+    color: #656689;
+    font-size: 1.6rem;
+    line-height: 1.87;
+}
+
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
