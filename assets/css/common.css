@@ -15,6 +15,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Sora", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    --height: 56px;
+    display: inline-block;
+    min-width: 130px;
+    height: var(--height);
+    line-height: var(--height);
+    border: 1px solid rgba(0, 9, 88, 0.7);
+    border-radius: 99px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000958;
+}
+
 input, textarea, select, button {
     font-size: inherit;
     font-family: inherit;
