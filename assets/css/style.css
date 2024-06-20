@@ -388,7 +388,7 @@
 }
 
 .tab__list {
-    display: flex;
+    display: inline-flex;
     column-gap: 56px;
     position: relative;
 }
