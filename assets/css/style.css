@@ -381,3 +381,93 @@
     bottom: -55px;
     right: -42px;
 }
+
+.about__desc-bottom {
+    width: 511px;
+    margin-bottom: 50px;
+}
+
+.tab__list {
+    display: flex;
+    column-gap: 56px;
+    position: relative;
+}
+
+.tab__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+    column-gap: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tab__icon {
+    width: 18px;
+}
+
+.tab__title {
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #48496a;
+}
+
+.tab__list::after,
+.tab__item--active::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #ff5b2e;
+    border-radius: 1px;
+    opacity: 0.07;
+}
+
+.tab__item--active::after {
+    width: 95px;
+    opacity: 1;
+}
+
+.tab__contents {
+    padding-top: 36px;
+}
+
+.tab__content-item {
+    display: none;
+}
+
+.tab__content-item--active {
+    display: block;
+}
+
+.tab__content-desc {
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+    width: 391px;
+}
+
+.tab__content-more {
+    display: inline-block;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #ff5d31;
+    position: relative;
+}
+
+.tab__content-more::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #ff5d31;
+    bottom: -5px;
+    left: 0;
+}
+
