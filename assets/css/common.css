@@ -47,9 +47,9 @@ a {
 }
 
 .btn--primary {
-    color: #fff;
-    background: var(--btn-color);
-    border-color: var(--btn-color);
+    color: #fff !important;
+    background: var(--btn-color) !important;
+    border-color: var(--btn-color) !important;
 }
 
 input, textarea, select, button {
