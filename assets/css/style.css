@@ -495,6 +495,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     margin-top: 70px;
+    column-gap: 65px;
 }
 
 .service-item {
@@ -536,4 +537,39 @@
 .service-item__more::after {
     content: url(../icons/arrow-up-right.svg);
     margin: 3px 0 0 5px;
+}
+
+.service__media {
+    margin-top: 17px;
+    position: relative;
+}
+
+.service__img {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+.service__media::after {
+    content: "";
+    position: absolute;
+    height: 350px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+    border-radius: 10px;
+}
+
+.service__cta-wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.service__cta {
+    min-width: 214px;
+    color: #ff5b2e;
+    border-color: currentColor;
 }
