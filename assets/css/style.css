@@ -515,6 +515,20 @@
     font-size: 2.2rem;
     line-height: 1;
     color: #000958;
+    position: relative;
+    padding-left: 12px;
+}
+
+.service-item__heading::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    border-radius: 1px;
+    background: linear-gradient(#ff5b2e, #ffa187);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .service-item__desc {
