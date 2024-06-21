@@ -855,3 +855,7 @@
 .pricing__container-width {
     width: 994px;
 }
+
+.pricing-item--active {
+    box-shadow: 0px 20px 44px rgba(195, 108, 22, 0.06);
+}
