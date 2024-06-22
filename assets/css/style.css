@@ -1107,6 +1107,7 @@
     outline: none;
     border-radius: inherit;
     padding: 0 22px;
+    font-size: 1.4rem;
 }
 
 .search-form__input::placeholder {
