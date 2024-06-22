@@ -1109,6 +1109,14 @@
     padding: 0 22px;
 }
 
+.search-form__input::placeholder {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.17;
+    color: #656689;
+    opacity: 0.8;
+}
+
 .search-form__submit {
     width: 46px;
     height: 46px;
