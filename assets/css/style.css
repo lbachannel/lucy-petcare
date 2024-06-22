@@ -992,3 +992,30 @@
     width: 24px;
     background: #ff5b2e;
 }
+
+/* Blog */
+.blog {
+    padding: 77px 0;
+}
+
+.blog__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog__info {
+    width: 350px;
+    margin-right: 73px;
+}
+
+.blog__desc {
+    margin-top: 0;
+}
+
+.blog__cta {
+    margin-top: 24px;
+    min-width: 182px;
+    border: 1px solid rgb(255 91 46 / 60%);
+    color: #ff5b2e;
+}
